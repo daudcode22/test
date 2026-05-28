@@ -9,5 +9,6 @@ int main(){
 
     scanf("%s",&FULLNAME);
 
+    printf("your name is : %s",FULLNAME);
     return 0;
 }
