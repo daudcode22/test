@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "mylib.h"
 
 void SayHello();
 int Sum(int Number, int SecondNumber);
@@ -8,7 +8,7 @@ int Sum(int Number, int SecondNumber);
 int main(){
 
     SayHello();
-
+    SayMyName();
     return 0;
 
 }
