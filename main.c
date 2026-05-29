@@ -2,6 +2,8 @@
 
 
 void SayHello();
+int Sum(int Number, int SecondNumber);
+
 
 int main(){
 
@@ -15,4 +17,12 @@ void SayHello(){
 
 
     printf("Hello");
+
+    int MyNumber = Sum(1,10);
+}
+
+int Sum(int Number, int SecondNumber){
+
+
+    return Number+SecondNumber;
 }
