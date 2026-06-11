@@ -6,7 +6,7 @@ int main() {
 	int Counter = 0;
 	while(1) {
 
-		printf("Number :%d",Counter);
+		printf("\nNumber :%d",Counter);
 		Counter++;
 		if(Counter == 10) {
 
